@@ -1,0 +1,4 @@
+cloudscraper==1.2.71
+beautifulsoup4==4.12.3
+tqdm==4.66.1
+lxml==5.1.0
