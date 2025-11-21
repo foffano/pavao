@@ -6,13 +6,13 @@ from datetime import datetime
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
-    page_title="Monitoramento Pavão",
-    page_icon="🦚",
+    page_title="Monitoramento Another Place",
+    page_icon="🛍️",
     layout="wide"
 )
 
 # --- CONSTANTES ---
-DB_NAME = "monitoramento_pavao.db"
+DB_NAME = "monitoramento_anotherplace.db"
 
 # --- FUNÇÕES ---
 @st.cache_data(ttl=60) # Cache de 1 minuto para não sobrecarregar o banco
@@ -149,7 +149,7 @@ def export_to_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 
 def main():
-    st.title("🦚 Dashboard de Monitoramento - Pavão")
+    st.title("🛍️ Dashboard de Monitoramento - Another Place")
     st.markdown("Visualize o histórico de preços e disponibilidade dos produtos.")
 
     # Carregar dados

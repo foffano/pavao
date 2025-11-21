@@ -1,12 +1,12 @@
-# Monitoramento Pavão 🦚
+# Monitoramento Another Place 🛍️
 
-Este projeto é uma ferramenta de monitoramento de preços e estoque para produtos da loja Alexandre Pavão. Ele consiste em um coletor de dados (scraper) e um dashboard interativo para visualização.
+Este projeto é uma ferramenta de monitoramento de preços e estoque para produtos da loja Another Place. Ele consiste em um coletor de dados (scraper) e um dashboard interativo para visualização.
 
 ## Estrutura do Projeto
 
 - `app.py`: Script principal de coleta de dados. Varre o sitemap da loja, verifica preços e disponibilidade (via JSON e HTML) e salva no banco de dados.
 - `dashboard.py`: Dashboard interativo feito em Streamlit para visualizar os dados coletados.
-- `monitoramento_pavao.db`: Banco de dados SQLite onde o histórico é armazenado.
+- `monitoramento_anotherplace.db`: Banco de dados SQLite onde o histórico é armazenado.
 
 ## Instalação
 
@@ -50,7 +50,7 @@ python -m streamlit run dashboard.py
 
 ## Banco de Dados
 
-O arquivo `monitoramento_pavao.db` contém a tabela `historico_precos` com as seguintes colunas principais:
+O arquivo `monitoramento_anotherplace.db` contém a tabela `historico_precos` com as seguintes colunas principais:
 - `data_coleta`: Data e hora da verificação.
 - `produto_nome`: Nome do produto.
 - `sku`: Código do produto.

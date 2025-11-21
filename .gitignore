@@ -37,6 +37,5 @@ Thumbs.db
 # Logs
 *.log
 
-# IMPORTANTE: NÃO ignorar o banco de dados SQLite
-# Queremos versionar o monitoramento_pavao.db
-# !monitoramento_pavao.db já está incluído por padrão
+# Database
+*.db

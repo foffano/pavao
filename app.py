@@ -7,8 +7,8 @@ from tqdm import tqdm
 from bs4 import BeautifulSoup
 
 # --- CONFIGURAÇÕES ---
-MAIN_SITEMAP_URL = "https://www.alexandrepavao.com/sitemap.xml"
-DB_NAME = "monitoramento_pavao.db"
+MAIN_SITEMAP_URL = "https://anotherplace.com.br/sitemap.xml"
+DB_NAME = "monitoramento_anotherplace.db"
 
 # Inicializa o scraper
 scraper = cloudscraper.create_scraper()
